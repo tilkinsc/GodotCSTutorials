@@ -4,8 +4,11 @@ using System.Text.Json;
 
 public class JsonData
 {
+	[JsonInclude]
 	public int money;
+	[JsonInclude]
 	public int hp;
+	[JsonInclude]
 	public string name;
 }
 
